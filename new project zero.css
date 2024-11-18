@@ -1,0 +1,42 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Fruit-Wallpaper-HQ.jpg'); 
+    background-size: cover; 
+    color: white; /* Ensure text is visible over the background image */
+}
+
+header { 
+    background: rgba(0, 0, 0, 0.5); /* Adding a slight background color for better readability */
+    padding: 10px 20px; 
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+nav ul { 
+    list-style-type: none; 
+    padding: 0; 
+}
+
+nav ul li { 
+    display: inline; 
+    margin-right: 10px; 
+}
+
+section { 
+    margin: 20px 0; 
+    padding: 20px; 
+    background: rgba(0, 0, 0, 0.5); /* Adding a slight background color for better readability */
+    opacity: 0;
+}
+
+footer { 
+    padding: 10px 20px; 
+    text-align: center; 
+    background: rgba(0, 0, 0, 0.5); /* Adding a slight background color for better readability */
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
